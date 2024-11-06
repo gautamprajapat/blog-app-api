@@ -78,26 +78,26 @@ public class UserServiceImpl implements UserService {
 
 	}
 	
-	public User dtoToUser(UserDto userDto) {
-		User user= new User();
-		user.setUserId(userDto.getUserId());
-		user.setUserName(userDto.getUserName());
-		user.setUserMail(userDto.getUserMail());
-		user.setUserPassword(userDto.getUserPassword());
-		user.setAbout(userDto.getAbout());
-		return user;
-		
-	}
+//	public User dtoToUser(UserDto userDto) {
+//		User user= new User();
+//		user.setUserId(userDto.getUserId());
+//		user.setUserName(userDto.getUserName());
+//		user.setUserMail(userDto.getUserMail());
+//		user.setUserPassword(userDto.getUserPassword());
+//		user.setAbout(userDto.getAbout());
+//		return user;
+//		
+//	}
 	
-	public UserDto userToUserDto(User user) {
-		UserDto userDto=new UserDto();
-		userDto.setUserId(user.getUserId());
-		userDto.setUserName(user.getUserName());
-		userDto.setUserMail(user.getUserMail());
-		userDto.setUserPassword(user.getUserPassword());
-		userDto.setAbout(user.getAbout());
-		return userDto;
-	}
+//	public UserDto userToUserDto(User user) {
+//		UserDto userDto=new UserDto();
+//		userDto.setUserId(user.getUserId());
+//		userDto.setUserName(user.getUserName());
+//		userDto.setUserMail(user.getUserMail());
+//		userDto.setUserPassword(user.getUserPassword());
+//		userDto.setAbout(user.getAbout());
+//		return userDto;
+//	}
 	
 	
 
