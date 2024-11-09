@@ -73,26 +73,26 @@ The project follows a modular structure with packages dedicated to various layer
 - Maven for dependency management
 - MySQL server
 
-  ## Installation
+## Installation
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/blog-app-api.git
+   git clone https://github.com/your-username/blog-app-api.git
 
 2. Navigate into the project directory:
 
-cd blog-app-api
+   cd blog-app-api
 
 3. Configure MySQL database connection in application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   spring.jpa.hibernate.ddl-auto=update
 
 4. Build and run the application:
 
-mvn spring-boot:run
+   mvn spring-boot:run
 
 ## Usage
 
